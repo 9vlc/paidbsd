@@ -1,0 +1,38 @@
+!var title=9's lair
+!var description=do not install.
+!var style=data/style.css
+!var 2nl={!eo br!}{!eo br!}
+
+!start
+
+!e div background
+!e div background
+!inc data/topbar.teg
+!e div block
+# Hi
+
+I'm ninevlc, you can call me Alex. I do stuff, sometimes.
+{$2nl$}
+I've been using UNIX-like systems off and on since I was around 11 years old after discovering Linux
+and BSD on the [4PDA QEMU premade images discussion page](https://4pda.to/forum/index.php?showtopic=318284).
+Since then, I've did a ton of switching between a ton of distributions and settled on FreeBSD after
+rediscovering its existence from an AMD 15h computer I had installed it on a couple of years prior
+for fun without knowing what FreeBSD even is about.
+{$2nl$}
+Nowadays I run FreeBSD for work and use Debian on my gaming machine. FreeBSD feels like the most
+"at-home" OS for me and I don't think I'm leaving it any time soon.
+{$2nl$}
+As for my hobbies, I do programming and some electronics. Typical nerd stuff.
+
+I mainly program in C, AWK and POSIX Shell. I also fairly know Ruby *(blame RPGMaker!!)*
+!e div block
+!e div iblock
+!var no_proc=BUTTONS_END
+ <a href="/teg"><img class="x8831" alt="88x31 button: powered by teg!" src="/data/buttons/teg.gif"></a>
+ <a href="https://plan9.stanleylieber.com/mothra"><img class="x8831" alt="88x31 button: 100% mothra compatible" src="/data/buttons/mothra.gif"></a>
+ <a href="https://bhyve.org"><img class="x8831" alt="88x31 button: bhyve" src="/data/buttons/bhyve.gif"></a>
+ <a href="https://freebsd.org"><img class="x8831" alt="88x31 button: Powered by FreeBSD" src="/data/buttons/freebsd.gif"></a>
+ <img class="x8831" src="/data/buttons/webp.gif" alt="88x31 button: no WEBP! just use PNG!">
+ <a href="https://msx.horse/landing.php"><img class="x8831" alt="88x31 button: msx2plus" src="/data/buttons/msx.gif"></a>
+BUTTONS_END
+!e div iblock

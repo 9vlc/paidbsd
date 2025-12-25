@@ -1,0 +1,17 @@
+!var title=teg
+!var style=../data/style.css
+!var no_br=999
+
+!start
+
+!inc ../data/topbar.teg
+!e div block
+
+![teg!](teg.gif) - a web building block for the desperate
+!eo br
+code: [github](https://github.com/9vlc/teg)
+---
+!var no_br=0
+!inc fun.md
+!e div block
+!eo br
