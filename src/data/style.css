@@ -27,8 +27,7 @@ img {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
-	max-width: 65em;
-	
+	max-width: 100%;
 }
 
 @font-face {
@@ -52,11 +51,12 @@ body {
 	line-height: 1.3;
 }
 
+.outpad { padding: 0.5em }
 .topbar, .block, .iblock {
 	background: #000;
 	color: #fff;
 	border: 0.2em dotted #fff;
-	margin: 1em 0em 0em 1em;
+	margin: 0.5em;
 	padding: 0.5em;
 	display: block;
 	max-width: 70em;

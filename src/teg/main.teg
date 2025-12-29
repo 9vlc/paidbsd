@@ -4,6 +4,7 @@
 
 !start
 
+!e div outpad
 !inc ../data/topbar.teg
 !e div block
 
@@ -14,4 +15,4 @@ code: [github](https://github.com/9vlc/teg)
 !var no_br=0
 !inc fun.md
 !e div block
-!eo br
+!e div outpad

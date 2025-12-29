@@ -1,0 +1,3 @@
+[submodule "teg"]
+	path = teg
+	url = git@github.com:9vlc/teg

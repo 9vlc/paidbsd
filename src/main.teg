@@ -5,8 +5,7 @@
 
 !start
 
-!e div background
-!e div background
+!e div outpad
 !inc data/topbar.teg
 !e div block
 # Hi
@@ -36,3 +35,4 @@ I mainly program in C, AWK and POSIX Shell. I also fairly know Ruby *(blame RPGM
  <a href="https://msx.horse/landing.php"><img class="x8831" alt="88x31 button: msx2plus" src="/data/buttons/msx.gif"></a>
 BUTTONS_END
 !e div iblock
+!e div outpad
