@@ -3,8 +3,8 @@
 
 _pagename()
 {
-	local page
-	page="${*##*-}"
+	local page="$*"
+	page="${page##*-}"
 	page="$(echo "${page%%.*}" | tr '_' ' ')"
 	echo "$page"
 }
