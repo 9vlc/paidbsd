@@ -1,6 +1,5 @@
 #!/bin/sh
 # go to massivefictions.com for cool books.
-set -eu
 
 _pagename()
 {
@@ -20,17 +19,9 @@ _index()
 }
 
 #
-# initialization
-#
-if [ "$1" = init ] && [ "$2" != nul ]; then
-	echo "!var title=$(_pagename "$2")"
-	exit
-fi
-
-#
 # main index page
 #
-if [ "$2" = nul ]; then
+if [ "${1:-nul}" = nul ]; then
 	echo "!e div block"
 	echo "Blog index"
 	_index
@@ -44,7 +35,7 @@ fi
 echo "!e div block"
 
 
-blog_file="pages/$(basename "$2")"
+blog_file="pages/$(basename "$1")"
 if [ ! -f "$blog_file" ]; then
 	echo "# The blog you're requesting does not exist"
 	echo "file: $blog_file"

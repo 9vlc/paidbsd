@@ -1,8 +1,8 @@
 !var title=9's blog
 !var style=../data/style.css
-!exec_inc ./indexer.sh init "${QUERY_STRING:-nul}"
+!exec_inc ./title.sh "$QUERY_STRING"
 !start
 !e div outpad
 !inc ../data/topbar.teg
-!exec_inc ./indexer.sh page "${QUERY_STRING:-nul}"
+!exec_inc ./indexer.sh "$QUERY_STRING"
 !e div outpad
